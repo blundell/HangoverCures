@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_vertical"
+  android:minHeight="?android:attr/listPreferredItemHeight"
+  android:orientation="vertical"
+  android:padding="6dip">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+      android:id="@+id/comment_author"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textColor="@color/off_white"
+      tools:text="Username23" />
+
+    <Space
+      android:layout_width="0dip"
+      android:layout_height="wrap_content"
+      android:layout_weight="1" />
+
+    <TextView
+      android:id="@+id/comment_time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textColor="@color/off_white"
+      tools:text="4 months ago" />
+
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/comment_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dip"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/off_white"
+    tools:text="Comment about cure, yeah it actually works!" />
+
+  <TextView
+    android:id="@+id/comment_replies_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="@color/off_white"
+    android:visibility="gone"
+    tools:text="32 replies" />
+
+  <TextView
+    android:id="@+id/comment_votes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="center_vertical"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="@color/off_white"
+    tools:text="30 up 2 down" />
+
+
+</LinearLayout>

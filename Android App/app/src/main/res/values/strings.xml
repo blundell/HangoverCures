@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Hangover Cures</string>
+  <string name="label_comments">Comments</string>
+  <string name="about_dialog_msg">The rating on the main screen is a global rating gathered from all users. This will update whenever the app is relaunched.</string>
+  <string name="email_title">Hangover Cures - Suggestions</string>
+  <string name="why_do_hangovers_happen">Why do hangovers Happen?</string>
+  <string name="new_year_title">Happy New Year</string>
+  <string name="new_year_desc">Oh you must be feeling really bad, lets fix you up!</string>
+  <string name="why_hangover_happen_desc">This is the big question. Probably unsurprisingly, the answer is fairly complex.\nIf there was a single simple reason for all that pain, you can be sure that a catch-all cure would have been discovered long ago.As it is, there is a positive cocktail of effects, all of which conspire to make \'the morning after\' a grim one.So its up to you to peruse this list to see if you can cure your hangover!</string>
+  <string name="comment_votes_up_down">↑ %1$s  ↓ %2$s</string>
+
+  <string-array name="filters">
+    <item>Popularity</item>
+    <item>Newest</item>
+  </string-array>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/explanation_header_text"
+    style="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:textColor="@color/colorPrimary"
+    tools:text="Title" />
+
+  <ImageView
+    android:id="@+id/separatorBottom"
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:layout_marginBottom="2dip"
+    android:background="@android:drawable/divider_horizontal_bright"
+    android:contentDescription="@null" />
+
+  <TextView
+    android:id="@+id/explanation_description_text"
+    style="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="5dip"
+    android:textColor="@color/off_white"
+    tools:text="Cure message" />
+
+</LinearLayout>

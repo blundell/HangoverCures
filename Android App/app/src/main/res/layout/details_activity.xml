@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    ads:adSize="SMART_BANNER"
+    ads:adUnitId="@string/admob_add_unit_id" />
+
+  <TextView
+    android:id="@+id/cure_title_text"
+    style="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="15dip"
+    android:textColor="@color/colorPrimary"
+    tools:text="Power Shower" />
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dip">
+
+    <ImageView
+      android:id="@+id/separatorBottom"
+      android:layout_width="match_parent"
+      android:layout_height="1dip"
+      android:layout_marginBottom="2dip"
+      android:background="@android:drawable/divider_horizontal_bright"
+      android:contentDescription="@null" />
+
+    <RatingBar
+      android:id="@+id/cure_rating"
+      style="?android:attr/ratingBarStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:isIndicator="false"
+      android:stepSize="1.0"
+      tools:numStars="5"
+      tools:rating="3" />
+
+    <ImageButton
+      android:id="@+id/cure_comments_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="5dip"
+      android:layout_toEndOf="@id/cure_rating"
+      android:layout_toRightOf="@id/cure_rating"
+      android:contentDescription="view comments"
+      android:src="@drawable/ic_action_comment_dark" />
+
+    <ScrollView
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/cure_rating"
+      android:layout_below="@id/separatorBottom">
+
+      <TextView
+        android:id="@+id/cure_description_text"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/off_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dip"
+        tools:text="Cure message" />
+    </ScrollView>
+  </RelativeLayout>
+
+</LinearLayout>
