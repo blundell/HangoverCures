@@ -1,8 +1,11 @@
-An application first written in 2010 and now a playground for learning.
+####An application first written in 2010 and now a playground for learning.
 
-> Android App
+Android App
  
 Coming soon iOS App oooh
+
+This application probably won’t build for you as I have not committed some files to protect the innocent. (I’m sorry future me for when I lose those files)
+
 
 > Keep that hangover at bay and feel as fresh as the day!
 > For when your hangover kicks in and you need that remedy to fix your head!
